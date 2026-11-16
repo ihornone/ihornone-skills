@@ -83,6 +83,8 @@ Language-level principles. Zero framework code. Apply to TypeScript, Python, Go,
 | [`api-documentation`](./api-documentation/SKILL.md) | HTTP API docs (OpenAPI/Swagger) — HTTP-specific | HTTP API documentation |
 | [`readme-template`](./readme-template/SKILL.md) | Adaptive README for any project type | README generation |
 | [`roadmap-template`](./roadmap-template/SKILL.md) | Adaptive roadmap for any planning model | Roadmap creation |
+| [`ui-quality`](./ui-quality/SKILL.md) | 7-part quality system (focal point, spacing, typography, color, content, details, motion) | Any UI building, redesign, polish |
+| [`ui-component-libraries`](./ui-component-libraries/SKILL.md) | Component library selection (shadcn, Radix, Sonner, Vaul, cmdk) and token restyling | Adding toasts, dialogs, drawers, search palettes |
 
 ---
 

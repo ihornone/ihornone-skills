@@ -272,6 +272,55 @@
       "languages": ["any"]
     },
     {
+      "id": "ui-quality",
+      "path": "ui-quality/SKILL.md",
+      "layer": "universal",
+      "version": "1.0",
+      "tags": ["ui", "design", "ux", "quality", "styling", "hierarchy", "spacing", "typography", "color", "tokens", "motion", "polish", "landing", "dashboard", "components"],
+      "triggers": [
+        "ui quality",
+        "make it look good",
+        "polish ui",
+        "redesign",
+        "clean up ui",
+        "landing page design",
+        "dashboard design",
+        "design tokens",
+        "fix spacing",
+        "typography hierarchy",
+        "not ai looking"
+      ],
+      "depends_on": [],
+      "refined_by": ["web-components-patterns", "mobile-components-ui"],
+      "languages": ["any"]
+    },
+    {
+      "id": "ui-component-libraries",
+      "path": "ui-component-libraries/SKILL.md",
+      "layer": "universal",
+      "version": "1.0",
+      "tags": ["ui", "components", "libraries", "shadcn", "radix", "sonner", "vaul", "cmdk", "number-flow", "recharts", "tanstack", "expo", "react-native-reusables", "gorhom"],
+      "triggers": [
+        "ui library",
+        "component library",
+        "add toast",
+        "add dialog",
+        "command menu",
+        "cmd+k",
+        "bottom sheet",
+        "drawer",
+        "animated number",
+        "shadcn",
+        "radix",
+        "sonner",
+        "vaul",
+        "cmdk"
+      ],
+      "depends_on": ["ui-quality"],
+      "refined_by": ["web-components-patterns", "mobile-components-ui"],
+      "languages": ["typescript", "javascript"]
+    },
+    {
       "id": "web-project-structure",
       "path": "web-project-structure/SKILL.md",
       "layer": "web",
@@ -573,6 +622,7 @@
     },
     "by_task": {
       "new_project": ["code-structure-verification", "naming-conventions", "git-workflow"],
+      "ui_design": ["ui-quality", "ui-component-libraries", "web-components-patterns", "mobile-components-ui"],
       "security_review": ["security-checklist", "web-security"],
       "performance_review": ["performance-optimization", "web-performance"],
       "test_writing": ["testing-patterns"],
